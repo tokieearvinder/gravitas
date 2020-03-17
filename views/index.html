@@ -1,0 +1,85 @@
+<html>
+
+<head>
+  <title>Task</title>
+</head>
+
+<body>
+  <h3> (1) Create Notes (/createNotes)</h3>
+  <form action="/createNotes" method="POST">
+    <table>
+      <tr>
+        <td>title</td>
+        <td><input type="text" name="title">title</td>
+      </tr>
+      <tr>
+        <td>description</td>
+        <td><input type="text" name="description">description</td>
+      </tr>
+      <tr>
+      <tr>
+        <td><button type="submit">Submit</button></td>
+      </tr>
+    </table>
+  </form>
+  <h3> (2) List Notes (/notes)</h3>
+  <form action="/notes" method="GET">
+    <table>
+      <tr>
+        <td><button type="submit">Submit</button></td>
+      </tr>
+    </table>
+  </form>
+  <h3> (3) Get Notes With Id (/getNotesById)</h3>
+  <form action="/getNotesById" method="POST">
+    <table>
+      <tr>
+        <td>note_id</td>
+        <td><input type="text" name="note_id">note_id</td>
+      </tr>
+      <tr>
+      <tr>
+        <td><button type="submit">Submit</button></td>
+      </tr>
+    </table>
+  </form>
+
+  <h3> (4) Update Notes (/updateNote)</h3>
+  <form action="/updateNote" method="POST">
+    <table>
+      <tr>
+        <td>note_id</td>
+        <td><input type="text" name="note_id">note_id</td>
+      </tr>
+      <tr>
+        <td>title</td>
+        <td><input type="text" name="title">title</td>
+      </tr>
+      <tr>
+        <td>description</td>
+        <td><input type="text" name="description">description</td>
+      </tr>
+      <tr>
+      <tr>
+        <td><button type="submit">Submit</button></td>
+      </tr>
+    </table>
+  </form>
+
+  <h3> (5) Delete Notes (/deleteNote)</h3>
+  <form action="/deleteNote" method="POST">
+    <table>
+      <tr>
+        <td>note_id</td>
+        <td><input type="text" name="note_id">note_id</td>
+      </tr>
+      <tr>
+      <tr>
+        <td><button type="submit">Submit</button></td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+
+</html>
